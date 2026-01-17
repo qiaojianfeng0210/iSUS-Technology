@@ -352,3 +352,18 @@ header .brand img:last-child{
   object-fit:contain;
   border-radius:18px;
 }
+
+.hero-visual{
+  margin: 14px 0 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-visual img{
+  width: 100%;
+  max-width: 520px;  /* 控制最大宽度，避免太大 */
+  height: 200px;     /* 控制高度，让它不占太多空间 */
+  object-fit: contain;
+  display: block;
+}
+
