@@ -367,3 +367,21 @@ header .brand img:last-child{
   display: block;
 }
 
+
+/* Full-stack visual (transparent PNG) */
+.hero-visual{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 10px 10px 0;
+}
+.fullstack-img{
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.08));
+}
+@media (min-width: 900px){
+  .fullstack-img{ max-height: 240px; }
+}
