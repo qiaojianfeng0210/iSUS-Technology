@@ -385,3 +385,129 @@ header .brand img:last-child{
 @media (min-width: 900px){
   .fullstack-img{ max-height: 240px; }
 }
+
+/* Tech hub: scalable content block */
+.tech-hub{ margin-top: 18px; display: grid; gap: 16px; }
+
+.tech-featured{
+  position: relative;
+  display: block;
+  padding: 18px;
+  border: 1px solid rgba(15, 23, 42, .08);
+  border-radius: 16px;
+  background: rgba(255,255,255,.7);
+  text-decoration: none;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.tech-featured:hover{
+  transform: translateY(-2px);
+  border-color: rgba(37, 99, 235, .22);
+  box-shadow: 0 16px 36px rgba(2, 8, 23, .08);
+}
+.tech-featured .badge{
+  position: absolute; top: 14px; right: 14px;
+  font-size: 12px; font-weight: 700;
+  padding: 6px 10px; border-radius: 999px;
+  background: rgba(37, 99, 235, .10);
+  color: rgba(37, 99, 235, .95);
+  border: 1px solid rgba(37, 99, 235, .18);
+}
+.tech-featured h3{ margin: 10px 0 8px; font-size: 20px; letter-spacing: -0.02em; color: #0f172a; }
+.tech-featured p{ margin: 0 0 12px; color: rgba(15, 23, 42, .70); max-width: 68ch; }
+.tech-featured .cta-row{
+  display: inline-flex; align-items: center; gap: 8px;
+  font-weight: 700; color: rgba(37, 99, 235, .95);
+}
+.tech-featured .arrow{ transition: transform .18s ease; }
+.tech-featured:hover .arrow{ transform: translateX(3px); }
+
+.tech-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.article-card{
+  display: block;
+  padding: 14px 14px 12px;
+  border: 1px solid rgba(15, 23, 42, .08);
+  border-radius: 14px;
+  background: rgba(255,255,255,.55);
+  text-decoration: none;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.article-card:hover{
+  transform: translateY(-2px);
+  border-color: rgba(37, 99, 235, .18);
+  box-shadow: 0 14px 30px rgba(2, 8, 23, .07);
+}
+.article-card h4{
+  margin: 8px 0 6px;
+  font-size: 16px;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+}
+.article-card p{
+  margin: 0;
+  color: rgba(15, 23, 42, .68);
+  line-height: 1.5;
+}
+
+.meta{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: rgba(15, 23, 42, .55);
+}
+.meta .tag{
+  font-weight: 700;
+  color: rgba(15, 23, 42, .62);
+  background: rgba(15, 23, 42, .06);
+  border: 1px solid rgba(15, 23, 42, .06);
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+.meta .dot{ opacity: .6; }
+
+.tech-footer{ display: flex; justify-content: flex-start; }
+
+@media (max-width: 820px){
+  .tech-grid{ grid-template-columns: 1fr; }
+}
+
+.article-wrap{
+  /* Wider content column to reduce excessive side whitespace on desktop */
+  max-width: clamp(900px, 92vw, 1120px); /* responsive reading width */
+  margin: 0 auto;
+}
+
+/* =========================================================
+   Article page centering fix (works even if TOC is removed)
+   Reason: tech article pages set .article-wrap to 320px + 1fr at >=900px
+   in an inline <style>. If you comment out the TOC, that 320px empty column
+   remains and pushes the article to the right. We override it here.
+   ========================================================= */
+@media (min-width: 900px){
+  .container.article-wrap{
+    grid-template-columns: 1fr !important; /* override inline 320px 1fr */
+    max-width: clamp(900px, 92vw, 1120px); /* responsive reading width */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* =========================================================
+   Fix: Article meta pills text color
+   In some article pages, .pill may inherit a white color from page-specific styles.
+   We force article meta pills to use the normal text color scheme.
+   ========================================================= */
+.article-meta .pill{
+  color: var(--muted) !important;          /* match paragraph tone */
+  background: rgba(31,120,200,.03) !important;
+  border-color: var(--border) !important;
+}
+.article-meta .pill b,
+.article-meta .pill strong{
+  color: var(--text) !important;
+}
+
