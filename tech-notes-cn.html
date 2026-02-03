@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>技术笔记与工程指南 | iSUS</title>
+  <meta name="description" content="iSUS 技术笔记与工程指南：CDC/MR减振技术、悬架电控、CAN集成、标定与调校流程、验证与量产交付的实践经验。" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="index-cn.html" aria-label="iSUS 首页">
+          <img src="assets/img/isus_logo.png" alt="iSUS 智能悬架">
+          <img src="assets/img/bumps_into_bliss.png" alt="Bumps Into Bliss">
+        </a>
+
+        <nav class="navlinks" aria-label="主导航">
+          <a href="index-cn.html">首页</a>
+          <a href="products-cn.html">产品</a>
+          <a class="active" href="technology-cn.html">技术 / 解决方案</a>
+          <a href="about-cn.html">关于我们</a>
+          <a href="contact-cn.html">联系</a>
+        </nav>
+
+        <div class="lang" aria-label="语言切换">
+          <a href="tech-notes.html">EN</a>
+          <a class="active" href="tech-notes-cn.html">中文</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index-cn.html">首页</a> / <a href="technology-cn.html">技术</a> / 技术笔记</div>
+        <h1>技术笔记与工程指南</h1>
+        <p>
+          围绕减振原理、CDC/MR技术、悬架电控与CAN集成、标定调校流程、以及验证与量产交付的实战内容。
+        </p>
+        <div class="actions" style="margin-top:14px;">
+          <a class="btn" href="technology-cn.html#tech-insights">返回技术页</a>
+          <a class="btn primary" href="contact-cn.html">联系工程师</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card">
+          <div class="kicker">浏览</div>
+          <h2>最新文章</h2>
+
+          <div class="tech-hub" style="margin-top:14px;">
+            <a class="tech-featured" href="tech-mrd-vs-cdc-cn.html">
+              <div class="badge">精选</div>
+              <div class="meta">
+                <span class="tag">减振技术</span>
+                <span class="dot">•</span>
+                <span class="time">约 8 分钟</span>
+              </div>
+              <h3>磁流变减振器 vs CDC减振器：关键差异与选型建议</h3>
+              <p>从原理、响应、成本结构、系统集成与应用场景维度做工程化对比。</p>
+              <div class="cta-row">
+                <span class="cta">阅读全文</span>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+
+            
+            <div class="tech-grid">
+              
+              <a class="article-card" href="why-shock-absorbers-are-crucial-cn.html">
+                <div class="meta">
+                  <span class="tag">基础原理</span><span class="dot">•</span><span class="time">约 7 分钟</span>
+                </div>
+                <h4>为什么减振器如此关键</h4>
+                <p>解释减振器如何影响轮胎接地、制动稳定、舒适与悬架耐久。</p>
+              </a>
+
+              <a class="article-card" href="why-adjustable-dampers-are-better-cn.html">
+                <div class="meta">
+                  <span class="tag">可调方案</span><span class="dot">•</span><span class="time">约 8 分钟</span>
+                </div>
+                <h4>为什么可调减振器优于固定阻尼减振器</h4>
+                <p>可调如何减少多工况妥协，在舒适、操控与载荷能力之间取得更好平衡。</p>
+              </a>
+
+              <a class="article-card" href="oem-vs-aftermarket-shock-absorbers-cn.html">
+                <div class="meta">
+                  <span class="tag">OEM vs 后装</span><span class="dot">•</span><span class="time">约 9 分钟</span>
+                </div>
+                <h4>主机厂（OEM） vs 后装减振器：到底差在哪里？</h4>
+                <p>从目标、验证工况包络、标定理念与耐久裕度出发，给出工程化评估清单。</p>
+              </a>
+
+              <a class="article-card" href="why-aftermarket-shock-absorbers-fail-earlier-cn.html">
+                <div class="meta">
+                  <span class="tag">后装可靠性</span><span class="dot">•</span><span class="time">约 8 分钟</span>
+                </div>
+                <h4>为什么后装减振器更容易提前失效</h4>
+                <p>热、密封、污染、侧向载荷与验证缺口：常见根因与预防要点。</p>
+              </a>
+            </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+          <div class="card">
+            <div class="kicker">分类</div>
+            <h2>减振技术</h2>
+            <p>CDC、MR、阀系设计、带宽响应、标定与取舍。</p>
+          </div>
+          <div class="card">
+            <div class="kicker">分类</div>
+            <h2>电控与集成</h2>
+            <p>控制器、传感器、线束、CAN信号、诊断与整车集成。</p>
+          </div>
+          <div class="card">
+            <div class="kicker">分类</div>
+            <h2>调校与控制</h2>
+            <p>模式策略、指标定义、路况适配与验证驱动的调校流程。</p>
+          </div>
+          <div class="card">
+            <div class="kicker">分类</div>
+            <h2>质量与制造</h2>
+            <p>IATF 16949流程、追溯、耐久验证与量产交付准备。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div>© 2026 iSUS. <span class="small">版权所有</span></div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
