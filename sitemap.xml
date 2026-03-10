@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home pages -->
   <url>
     <loc>https://isussys.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://isussys.com/zh/</loc>
+    <loc>https://isussys.com/index-cn.html</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Technology pages -->
   <url>
     <loc>https://isussys.com/technology.html</loc>
     <changefreq>weekly</changefreq>
@@ -20,6 +24,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Tech Notes pages -->
   <url>
     <loc>https://isussys.com/tech-notes.html</loc>
     <changefreq>weekly</changefreq>
@@ -30,33 +36,31 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Featured / Technical Articles -->
+  <url>
+    <loc>https://isussys.com/ai-shock-absorbers.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/ai-shock-absorbers-cn.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://isussys.com/tech-mrd-vs-cdc.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://isussys.com/why-shock-absorbers-are-crucial.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://isussys.com/why-adjustable-dampers-are-better.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://isussys.com/oem-vs-aftermarket-shock-absorbers.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://isussys.com/why-aftermarket-shock-absorbers-fail-earlier.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://isussys.com/tech-mrd-vs-cdc-cn.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://isussys.com/why-shock-absorbers-are-crucial.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -66,7 +70,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://isussys.com/why-adjustable-dampers-are-better.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://isussys.com/why-adjustable-dampers-are-better-cn.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/oem-vs-aftermarket-shock-absorbers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -76,8 +90,56 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://isussys.com/why-aftermarket-shock-absorbers-fail-earlier.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://isussys.com/why-aftermarket-shock-absorbers-fail-earlier-cn.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- About / Contact / Products / Warranty -->
+  <url>
+    <loc>https://isussys.com/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/about-cn.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/contact-cn.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/products.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/products-cn.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/warranty.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://isussys.com/warranty-cn.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
