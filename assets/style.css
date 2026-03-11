@@ -511,3 +511,79 @@ header .brand img:last-child{
   color: var(--text) !important;
 }
 
+.footer a:hover,
+.card a:hover{
+opacity:0.75;
+}
+
+/* contact form container */
+
+.inquiry-card{
+background:#ffffff;
+border:1px solid #e6e8eb;
+border-radius:16px;
+padding:28px;
+box-shadow:0 4px 18px rgba(0,0,0,0.04);
+}
+
+/* two column layout */
+
+.inquiry-grid{
+display:grid;
+grid-template-columns:200px 1fr;
+gap:16px 20px;
+align-items:center;
+}
+
+/* label */
+
+.inquiry-grid label{
+font-weight:600;
+color:#1e293b;
+}
+
+/* input */
+
+.inquiry-grid input{
+width:100%;
+padding:12px 14px;
+border:1px solid #d6d9de;
+border-radius:8px;
+background:#f8fafc;
+transition:all .2s;
+font:inherit;
+}
+
+/* focus */
+
+.inquiry-grid input:focus{
+outline:none;
+border-color:#1677be;
+background:#ffffff;
+box-shadow:0 0 0 2px rgba(22,119,190,0.12);
+}
+
+/* button */
+
+.inquiry-submit{
+background:#1677be;
+color:white;
+border:none;
+border-radius:8px;
+padding:12px 26px;
+font-weight:600;
+cursor:pointer;
+transition:.2s;
+}
+
+.inquiry-submit:hover{
+background:#135e97;
+}
+
+/* helper text */
+
+.inquiry-note{
+margin-top:12px;
+color:#64748b;
+font-size:0.9rem;
+}
